@@ -24,7 +24,9 @@ def get_japanese_emoticon(path, english_emote)
   # code goes here
   myHash = load_library(path)
   myHash.each do |name, data|
-    binding.pry
+    data.each do |language, emoticon|
+      binding.pry
+    end
   end
 end
 
