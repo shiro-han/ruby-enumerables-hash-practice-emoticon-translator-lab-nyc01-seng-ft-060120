@@ -15,7 +15,6 @@ def load_library(path)
       elsif !output[name][:japanese]
         output[name][:japanese] = emoticon
       end
-      count += 1
       binding.pry
     end
   end
