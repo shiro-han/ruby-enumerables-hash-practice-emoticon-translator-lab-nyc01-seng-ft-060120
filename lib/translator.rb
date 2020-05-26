@@ -17,6 +17,7 @@ def load_library(path)
       end
     end
   end
+  binding.pry
   val
 end
 
