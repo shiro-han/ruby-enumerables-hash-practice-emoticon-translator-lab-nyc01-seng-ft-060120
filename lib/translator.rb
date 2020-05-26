@@ -10,6 +10,7 @@ def load_library(path)
       if !output[name]
         output[name] = {}
       end
+
       binding.pry
     end
   end
