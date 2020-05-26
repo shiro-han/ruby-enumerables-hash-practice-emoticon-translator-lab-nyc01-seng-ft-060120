@@ -5,6 +5,9 @@ require 'pry'
 def load_library
   # code goes here
   myHash = YAML.load_file('lib/emoticons.yml')
+  output = myHash.each_with_object({}) do |(name, data), output|
+
+  end
 end
 
 binding.pry
