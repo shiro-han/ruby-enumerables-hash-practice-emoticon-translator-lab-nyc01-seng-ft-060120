@@ -4,7 +4,7 @@ require 'pry'
 
 def load_library
   # code goes here
-  myHash = YAML.
+  myHash = YAML.load_file('emoticons.yml')
 end
 
 def get_japanese_emoticon
