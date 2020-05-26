@@ -27,7 +27,7 @@ def get_japanese_emoticon(path, english_emote)
   myHash.each do |name, data|
     data.each do |language, emoticon|
       if english_emote == emoticon
-        data[:japanese]
+        output = data[:japanese]
       end
       binding.pry
     end
