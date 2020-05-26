@@ -17,12 +17,17 @@ def load_library(path)
       end
     end
   end
-  binding.pry
   val
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(path, english_emote)
   # code goes here
+  myHash = load_library(path)
+  key1
+  key2
+  myHash.each do |name, data|
+    binding.pry
+  end
 end
 
 def get_english_meaning
