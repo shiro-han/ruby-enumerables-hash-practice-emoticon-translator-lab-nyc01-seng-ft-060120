@@ -10,7 +10,12 @@ def load_library(path)
       if !output[name]
         output[name] = {}
       end
-
+      if !output[name][:english]
+        output[name][:english] = emoticon
+      elsif !output[name][:japanese]
+        output[name][:japanese] = emoticon
+      end
+      count += 1
       binding.pry
     end
   end
