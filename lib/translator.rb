@@ -31,7 +31,7 @@ def get_japanese_emoticon(path, english_emote)
       end
     end
   end
-  binding.pry
+  #binding.pry
   output
 end
 
