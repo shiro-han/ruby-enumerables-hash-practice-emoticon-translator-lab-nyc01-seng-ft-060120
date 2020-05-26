@@ -5,11 +5,15 @@ require 'pry'
 def load_library(path)
   # code goes here
   myHash = YAML.load_file(path)
-  myHash.each_with_object({}) do |(name, data), output|
+  val = myHash.each_with_object({}) do |(name, data), output|
     data.each do |emoticon|
+      if !output[name]
+        output[name] = {}
+      end
       binding.pry
     end
   end
+  val
 end
 
 def get_japanese_emoticon
