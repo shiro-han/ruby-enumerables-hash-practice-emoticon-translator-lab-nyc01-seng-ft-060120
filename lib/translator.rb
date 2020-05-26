@@ -2,9 +2,9 @@
 require "yaml"
 require 'pry'
 
-def load_library
+def load_library(path)
   # code goes here
-  myHash = YAML.load_file('lib/emoticons.yml')
+  myHash = YAML.load_file(path)
   myHash.each_with_object({}) do |(name, data), output|
     binding.pry
   end
