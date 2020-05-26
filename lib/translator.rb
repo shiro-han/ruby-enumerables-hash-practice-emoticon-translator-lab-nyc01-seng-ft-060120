@@ -1,7 +1,10 @@
 # require modules here
+require "yaml"
+require 'pry'
 
 def load_library
   # code goes here
+  myHash = YAML. 
 end
 
 def get_japanese_emoticon
