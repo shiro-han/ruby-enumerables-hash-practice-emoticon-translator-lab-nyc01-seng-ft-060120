@@ -26,9 +26,7 @@ def get_japanese_emoticon(path, english_emote)
   key1
   key2
   myHash.each do |name, data|
-    data.each do |language, emote|
-      binding.pry
-    end
+    binding.pry
   end
 end
 
