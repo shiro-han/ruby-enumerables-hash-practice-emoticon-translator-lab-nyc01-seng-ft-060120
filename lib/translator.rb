@@ -23,8 +23,6 @@ end
 def get_japanese_emoticon(path, english_emote)
   # code goes here
   myHash = load_library(path)
-  key1
-  key2
   myHash.each do |name, data|
     binding.pry
   end
