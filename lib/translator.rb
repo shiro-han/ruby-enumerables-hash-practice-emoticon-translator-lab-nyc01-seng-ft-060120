@@ -6,7 +6,9 @@ def load_library(path)
   # code goes here
   myHash = YAML.load_file(path)
   myHash.each_with_object({}) do |(name, data), output|
-    binding.pry
+    data.each do |emoticon|
+      binding.pry
+    end
   end
 end
 
