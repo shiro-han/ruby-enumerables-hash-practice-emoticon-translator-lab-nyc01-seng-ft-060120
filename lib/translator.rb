@@ -6,7 +6,9 @@ def load_library
   # code goes here
   myHash = YAML.load_file('lib/emoticons.yml')
   output = myHash.each_with_object({}) do |(name, data), output|
-
+    data.each do |emoticon|
+      binding.pry
+    end
   end
 end
 
