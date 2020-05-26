@@ -10,8 +10,6 @@ def load_library
   end
 end
 
-binding.pry
-
 def get_japanese_emoticon
   # code goes here
 end
